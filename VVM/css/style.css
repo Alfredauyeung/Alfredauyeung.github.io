@@ -1,0 +1,41 @@
+body {
+	
+	background-color: #A1C5AB;
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: 'custom';
+	src: url('hemi.ttf');
+}
+
+.headera {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	padding: auto auto;
+	background-color: #A1C5AB;
+	}
+
+.headerb {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: auto auto;
+	padding: auto auto;
+	background-color: #A1C5AB;
+}
+
+.headerb a img {
+	margin-top: 15px;
+	width: 17%;
+	
+}
+
+h1 {
+	font-family: custom;
+	color: #FDE6BD;
+	font-size: 90px;
+}
