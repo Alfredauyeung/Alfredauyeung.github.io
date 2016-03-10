@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	}
+
+/*top*/
+
+.header {
+	width: 990px;
+	margin: 0px auto;
+	padding: 10px auto;
+	background-image: url("../images/coffeebeans.jpg");
+	background-repeat: no-repeat;
+	background-size: 990px;
+	overflow: hidden;
+}
+
+.headerCon {
+	width: 990px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.headerCon a img {
+	display: inline-block;
+	max-width: 250px;
+	margin: 0px 80px;
+}
+
+.nav {
+	margin: 0px auto;
+	margin-top: 10px;
+	height: 30px;
+	background: #894B18;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+	
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+	display: block;
+	padding: 2.5px 94px;
+	color: white;
+}
+
+/*Mid*/
+
+.bodyCon {
+	width: 990px;
+	margin: 0px auto;
+	
+	
+}
+
+#left {
+	text-align:center;
+	display: inline-block;
+	width: 495px;
+	min-height: 400px;
+	float: left;
+	background-color: #FCEBC8;
+}
+
+#right {
+	text-align:center;
+	display: inline-block;
+	width:495px;
+	min-height: 400px;
+	float: left;
+	background-color: #FCEBC8;
+}
+
+h4 {
+	font-family: garamond;
+	display: inline-block;
+	margin-top: 57px;
+}
+
+p {
+	font-family: garamond;
+	display:inline-block;
+	font-size: 16px;
+	margin: 15px 35px;
+	padding: 0px 10px;
+	color: black;
+}
+/*footer*/
+
+footer {
+	font-family: garamond;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	width: 990px;
+	margin: 0px auto;
+	height: 60px;
+	background-color: #894B18;
+}
