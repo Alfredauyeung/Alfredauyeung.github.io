@@ -28,7 +28,7 @@ body {
 .dropdown-content {
     display: none;
     position: fixed;
-    min-width: 160px;
+    min-width: 10px;
 }
 
 .dropdown-content img {
@@ -163,53 +163,13 @@ body {
 	max-height: 300px;
 	min-width: 400px;
 }
-/*.lsidegrid {
-	overflow: hidden;
-	background-color: white;
-	width: 40%;
-	height: auto;
-}
 
-.lsidegrid .column {
-	height: auto;
-	padding-left: 30px;
-	width: 60em;
-	display: inline-block;
-	background-color: blue;
-}
+/*footer*/
 
-.column .largebox img{
-	width: 50%;
-}
-
-.column .rutger img{
-	width: 50%;
-}
-
-.column .infographic img{
-	width: 50%;
-}
-
-ul li {
-	list-style: none;
-}
-
-.rsidegrid {
+footer {
+	text-align: center;
 	width: 100%;
-	height: auto;
+	min-height: 20px;
+	background-color: #9ce1b0;
 }
-
-.rsidegrid .rcolumn {
-	text-align: right;
-	width: 60em;
-	}
-
-.rcolumn .argebox img{
-	width: 50%;
-}
-
-ul li {
-	list-style: none;
-}*/
-
 
