@@ -28,7 +28,28 @@
 						<br>I know, I know you wanna keep hearing more about my amazing adventure but lets get back to the real reason why your here, my skills. I have knowledge of HTML, CSS, Javascript, jQuery you name it I know it and if not I will learn it. But thats not all prior to joining Startup Institude I worked as a graphic designer for startups and small companies using Photoshop, Illustrator and other tools within Adobe Creative Suite.</p>
 				</div>			
 					
-				<div id="gallery">
+				<div class="gallery">
+					<div class="row1">
+						<div class="img1"><p>Your in the first layer Break through to the second.<br> Enter the <b>code.</b></p>
+						</div>
+						<div class="img2">
+						</div>
+					</div>
+					<div class="row2">
+						<div class="img3">
+						</div>
+						<div class="img4">
+						</div>
+						<div class="img5">
+						</div>
+						<div class="img6">
+						</div>
+						<div class="img7">
+						</div>
+					</div>
+				</div>
+					
+				<!---div id="gallery">
 					<div class="topgal">
 						<div class>
 							<img src="image/8.png" class="gal-img">
@@ -59,7 +80,7 @@
 							<img src="image/2.png" class="gal-img">
 						</div>
 					</div>
-				</div>
+				</div-->
 			<footer>
 				<h2>alfredsdesign@gmail.com . 646-884-1411</h2>
 			</footer>
@@ -69,12 +90,14 @@
 		$("#slideshow > div:gt(0)").hide();
 	setInterval(function() { 
  	$('#slideshow > div:first')
-    .fadeOut(1000)
+    .fadeOut(2000)
     .next()
-    .fadeIn(1000)
+    .fadeIn(2000)
     .end()
     .appendTo("#slideshow");
-},  2000);
+},  3000);
+
 	</script>
+
 	</body>
 </html>

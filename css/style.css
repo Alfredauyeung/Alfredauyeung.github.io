@@ -3,9 +3,10 @@ body {
 	margin: 0px 0px;
 	background: #9ce1b0;
 	min-height: 500px;
-	min-width: 1080px;
+	max-width: 1800px;
 }
 /*dropdown*/
+
 
 .dropbtn {
 	background-color: transparent;
@@ -13,7 +14,7 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
+    }
 
 .dropbtn img {
 	width: 50px;
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     display: block;
 }
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -139,7 +139,97 @@ body {
 
 /*portfolio*/
 
-#gallery {
+.gallery {
+	height: 1000px;
+	max-width: 1800px;
+	background-color: red;
+}
+
+.row1 {
+	
+	background-color: blue;
+	max-width: 1800px;
+	height: 500px;
+}
+
+.row2 {
+	
+	background-color: green;
+	max-width: 1800px;
+	height: 500px;
+}
+
+.row1 .img1 {
+	text-align: center;
+	background-color: black;
+	color: white;
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+
+.img1 p {
+
+	font-size: 35px;
+	padding: 100px;
+}
+.row1 .img2 {
+	background-image: url("../image/2.png");
+	background-position: -85px 0;
+	float: left;
+	background-color: white;
+	width: 50%;
+	height: 500px;
+
+}
+
+.row2 .img3 {
+	background-image: url("../image/3.jpg");
+	background-position: -500px -600px;
+	float: left;
+	background-color: red;
+	width: 15%;
+	height: 500px;
+}
+
+.row2 .img4 {
+	background-image: url("../image/4.png");
+	background-position: -500px -600px;
+	float: left;
+	background-color: blue;
+	width: 15%;
+	height: 500px;
+}
+
+.row2 .img5 {
+	background-image: url("../image/5.png");
+	background-position: -300px -100px;
+	float: left;
+	width: 45%;
+	height: 500px;
+	background-color: black;
+}
+
+.row2 .img6 {
+	background-image: url("../image/6.png");
+	background-position: -500px -600px;
+	float: left;
+	width: 25%;
+	height: 250px;
+	background-color: purple;
+}
+
+.row2 .img7 {
+	background-image: url("../image/7.jpg");
+	background-position: -500px -600px;
+	float: left;
+	width: 25%;
+	height: 250px;
+	background-color: orange;
+}
+
+
+/*#gallery {
   max-width: 100%;
   min-height: 450px;
   padding-top: 20px;
@@ -162,13 +252,13 @@ body {
 .gal-img {
 	max-height: 300px;
 	min-width: 400px;
-}
+}*/
 
 /*footer*/
 
 footer {
 	text-align: center;
-	width: 100%;
+	min-width: 1080px;
 	min-height: 20px;
 	background-color: #9ce1b0;
 }
