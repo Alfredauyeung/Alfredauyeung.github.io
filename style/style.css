@@ -25,6 +25,19 @@ body {
 	width: 70px;
 }
 
+ul{
+	font-size: 20px;	
+	list-style: none;
+	display: inline-block;
+}
+
+ul li {
+	margin: 0 0 0 2.5em;
+	float: left;
+}
+.slides {
+	margin: 50px;
+}
 
 .aboutme{
 	box-shadow: 0px 0px 7px .5px rgba(0, 0, 0, .5);
@@ -33,7 +46,7 @@ body {
 }
 
 .row img {
-	margin: 50px;
+	margin: 0px;
 	padding: 0px;
 	width: 350px;
 	height: 350px;
@@ -74,6 +87,12 @@ body {
 	width: 75px;
 }
 
+/*embrace*/
+
+.embracepage img {
+	min-height: 350px;
+	min-width: 1200px;
+}
 /*.dropbtn {
 	background-color: transparent;
 	padding: 16px;
