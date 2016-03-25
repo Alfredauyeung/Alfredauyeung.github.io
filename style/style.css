@@ -26,8 +26,10 @@ body {
 }
 
 ul{
+	float: right;
 	position: relative;
 	top: 60px;
+	right: 20px;
 	font-size: 20px;	
 	list-style: none;
 	display: block;
@@ -41,11 +43,31 @@ ul li {
 
 .aboutme{
 	margin-bottom: 30px;
-	box-shadow: 0px 0px 7px .5px rgba(0, 0, 0, .5);
 	min-height: 450px;
 	background: #9ce1b0;
 }
 
+#slideshow {
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+#slideshow img {
+	position: absolute;
+	margin: 25px;
+	width: 350px;
+	height: 350px;
+}
+
+@media (min-width: 900px) {
+	#slideshow {
+		padding-top: 20px;
+	}
+}
 
 #hello {
 	display: block;
@@ -56,23 +78,30 @@ ul li {
 	font-size: 10em;
 }
 
-.slides {
-	margin-top: 30px;
-	width: 100%;
+/*mobile*/
+@media (min-width: 150px) {
+	#hello {
+		padding-top: 335px;
+	}
 }
-
-.slides img {
-	display: block;
-	height: auto;
-	max-width: 100%;
+/*tablet*/
+@media (min-width: 500px) {
+	#hello{
+		padding-top: 10px;
+	}
 }
-
+/*Desktop*/
+@media (min-width: 900px) {
+	#hello {
+		padding-top: 10px;
+	}
+}
 .thework {
 	height: auto;
 	width: 100%;
 }
 
-/*mobile*/
+
 @media (min-width: 300px) {
 	.thework img {
 		padding: 5px;
@@ -81,9 +110,9 @@ ul li {
 	}
 }
 
-/*tablet*/
 
-/*Desktop*/
+/*box-shadow: 0px 0px 7px .5px rgba(0, 0, 0, .5);*/
+
 
 
 
@@ -153,27 +182,7 @@ ul li {
 }*/
 
 /*change image
-#slideshow {
-	margin: 0px 0px;
-	padding: 0px;
-}
 
-#slideshow > div {
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	bottom: 10px;
-}
-
-#slideshow img {
-	float: left;
-	position: absolute;
-	left: 130px;
-	top: 90px;
-	width: 320px;
-	height: 320px;
-}
-*/
 
 /*right side text
 
