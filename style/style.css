@@ -147,7 +147,7 @@ ul{
 
 /*tablet*/
 @media (min-width: 500px) {
-	#hello{
+	#hello {
 		padding-top: 10px;
 	}
 }
@@ -156,6 +156,13 @@ ul{
 	#hello {
 		font-size: 10em;
 		padding-top: 10px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+	.small-12.medium-6.large-6.columns.text {
+		float: none;
+		padding-bottom: 1px;
 	}
 }
 
