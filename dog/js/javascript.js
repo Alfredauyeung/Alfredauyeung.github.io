@@ -1,15 +1,3 @@
-// $(document).ready(function(){
-// 	$('#doge1').mousedown(function(){
-// 		$('#doge1').hide();
-// 	})
-// 	$('#doge1').mouseup(function(){
-// 		$('#doge1').show();
-// 	});
-// });
-$('#doge1').on('mousedown', function() {
-	$(this).hide();
+$("#belly").click(function() {
+    $(this).find('img').toggle();
 });
-$('#doge2').on('mouseup', function() {
-	$(this).show();
-});
-

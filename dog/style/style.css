@@ -6,14 +6,13 @@ button {
 	border: none;
 }
 
-.doge,img{
+img{
 	position: absolute;
-	left: 0px;
+	left: 350px;
 	padding-top: 30px;
 	width: 40%;
 }
 
 #doge2 {
 	position: relative;
-	z-index: -1;
 }
