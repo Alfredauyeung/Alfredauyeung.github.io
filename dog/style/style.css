@@ -6,13 +6,25 @@ button {
 	border: none;
 }
 
-img{
+img {
 	position: absolute;
 	left: 350px;
 	padding-top: 30px;
-	width: 40%;
+	width: 30%;
+}
+
+/*mobile*/
+@media (min-width: 300px) and (max-width: 420px) {
+	img {
+		width: 90%;
+		left: 15px;
+	}
 }
 
 #doge2 {
 	position: relative;
+}
+
+#tail {
+	z-index: -1;
 }
