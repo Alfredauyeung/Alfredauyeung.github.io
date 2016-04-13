@@ -10,12 +10,21 @@ body {
 	text-align: center;
 }
 
+.move {
+	width: 15%;
+	display: none;
+}
+
 h1 {
 	font-family: 'Press Start 2P', cursive;
 }
 
 button {
+	margin-top: 70px;
+	margin-left: 90px;
+	font-size: 25px;
 	font-family: 'Press Start 2P', cursive;
+	float: left;
 }
 
 /*mobile*/
@@ -45,6 +54,13 @@ button {
 	.opening h1 {
 		font-size: 40px;
 		padding-top: 300px;
+	}
+}
+
+@media (min-width: 950px) {
+	.opening h1 {
+		font-size: 50px;
+		padding-top: 200px;
 	}
 }
 

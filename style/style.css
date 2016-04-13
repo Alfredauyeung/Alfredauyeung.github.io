@@ -4,18 +4,17 @@ body {
 	padding: 0px 0px;
 	margin: 0px 0px;
 	}
-/*dropdown*/
 
 .navbar {
 	padding: 0;
 	margin: 0;
 	height: 100px;
-	background:	white;
+	background:	#f7ce6b;
 }
 
 #logo {
 	padding-top: 20px;
-	padding-left: 40px;
+	padding-left: 0px;
 }
 
 #logo img{
@@ -37,6 +36,7 @@ ul{
 
 @media (min-width: 300px) {
 	ul li {
+		color: white;
 		margin: 1.2em 0 0 .7em;
 		float: left;
 	}
@@ -44,6 +44,7 @@ ul{
 
 @media (min-width: 900px) {
 	ul li {
+		color: white;
 		margin: 1.2em 0 0 2.5em;
 		float: left;
 	}
@@ -52,12 +53,13 @@ ul{
 /*bio*/
 
 .aboutme{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	min-height: 450px;
-	background: #9ce1b0;
+	background: #b8e885;
 }
 
 .aboutme p {
+	padding-right: 20px;
 	font-family: 'Cantarell', sans-serif;
 	font-size: 20px;
 }
@@ -180,9 +182,6 @@ ul{
 	}
 }
 
-
-/*box-shadow: 0px 0px 7px .5px rgba(0, 0, 0, .5);*/
-
 .theworks {
 	padding: 0px 50px;
 	height: auto;
@@ -192,7 +191,7 @@ ul{
 
 @media (min-width: 300px) {
 	.theworks img {
-		padding: 5px;
+		padding: 5px 0px;
 		height: auto;
 		width: 100%;	
 	}
@@ -209,7 +208,8 @@ ul{
 	padding: 0;
 	margin-top: 30px;
 	min-height: 7.5em;
-	background: #9ce1b0;
+	background: #f7ce6b;
+	/*background: #f0d690;*/
 }
 
 .foot {
@@ -223,5 +223,3 @@ ul{
 	height: 75px;
 	width: 75px;
 }
-
-/*embrace*/

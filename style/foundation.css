@@ -1261,12 +1261,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2199e8;
+  color: black;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1585cf; }
+    color: white; }
   a img {
     border: 0; }
 
@@ -1676,7 +1676,7 @@ select {
   /*padding: 0.85em 1em;*/
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #D5D5DB;
+  background-color: #b8e885;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }

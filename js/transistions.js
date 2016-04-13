@@ -1,4 +1,3 @@
-
 		setInterval(animateMyShit,  4000);
 
 		function animateMyShit () {
