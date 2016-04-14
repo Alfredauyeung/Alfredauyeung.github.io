@@ -25,11 +25,12 @@ body {
 }
 
 ul{
+	font-family: 'Cantarell', sans-serif;
 	float: right;
 	position: relative;
-	top: 30px;
-	right: 20px;
-	font-size: 20px;	
+	top: 20px;
+	/*right: 20px;*/
+	font-size: 24px;	
 	list-style: none;
 	display: block;
 }
@@ -79,15 +80,6 @@ ul{
 	height: auto;
 }
 
-/*@media (min-width: 300px) {
-	#slideshow img {
-		top: 110px;
-		left: 0;
-		padding: 10px;
-		height: auto;
-		width: auto;
-	}
-}*/
 @media (min-width: 300px) {
 	#slideshow {
 		margin: 0 3%;
@@ -222,4 +214,13 @@ ul{
 	margin: 20px 35px;
 	height: 75px;
 	width: 75px;
+}
+
+h3 {
+	margin: 10px 0;
+	font-family: 'Cantarell', sans-serif;
+}
+
+p {
+	font-family: 'Cantarell', sans-serif;
 }
