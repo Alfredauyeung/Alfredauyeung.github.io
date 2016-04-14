@@ -11,7 +11,7 @@ body {
 }
 
 .move {
-	width: 15%;
+	width: 16%;
 	display: none;
 }
 
@@ -106,4 +106,10 @@ button {
 .controls {
 	padding-top: 250px;
 	text-align: center;
+}
+
+#sign {
+	margin-left: 10px;
+	float: left;
+	width: 23%;
 }
