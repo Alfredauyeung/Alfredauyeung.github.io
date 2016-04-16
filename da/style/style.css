@@ -28,21 +28,21 @@ button {
 }
 
 /*mobile*/
-@media (min-width: 250px) {
+@media (min-width: 250px) and (max-width: 300px) {
 	.opening h1{
 		font-size: 28px;
 		padding-top: 175px;
 	}
 }
 
-@media (min-width: 350px) {
+@media (min-width: 350px) and (max-width: 390px) {
 	.opening h1{
 		font-size: 34px;
 		padding-top: 215px;
 	}
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-width: 600px) {
 	.opening h1{
 		font-size: 38px;
 		padding-top: 245px;
@@ -50,7 +50,7 @@ button {
 }
 
 /*tablet*/
-@media (min-width: 750px) {
+@media (min-width: 750px) and (max-width: 900px) {
 	.opening h1 {
 		font-size: 40px;
 		padding-top: 300px;
@@ -112,4 +112,67 @@ button {
 	margin-left: 10px;
 	float: left;
 	width: 23%;
+}
+
+.skull {
+	width: 20%;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+	.skull {
+		width: 50%;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.skull {
+		width: 30%;
+	}
+}
+
+a h1 {
+	text-decoration: none;
+	color: white;
+}
+
+a h1:active {
+	text-decoration: none;
+	color: white;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.opening .tryAgain h1 {
+		font-size: 60px;
+	}
+}
+
+.win {
+	width: 13%;
+}
+
+a h2.tryA {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.tryAgain h1 {
+	padding-top: 100px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.tryAgain h1 {
+	padding-top: 200px;
+	font-size: 30px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+	a h2.tryA {
+		font-family: 'Press Start 2P', cursive;
+		font-size: 20px;
+		text-decoration: none;
+		color: white;
+	}
 }

@@ -35,10 +35,10 @@ ul{
 	display: block;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 300px) and (max-width: 420px) {
 	ul li {
 		color: white;
-		margin: 1.2em 0 0 .7em;
+		margin: 1.2em 0 0 .4em;
 		float: left;
 	}
 }
@@ -223,4 +223,17 @@ h3 {
 
 p {
 	font-family: 'Cantarell', sans-serif;
+}
+
+.play {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.play:hover {
+	font-family: 'Cantarell', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding-bottom: 15px;
 }
