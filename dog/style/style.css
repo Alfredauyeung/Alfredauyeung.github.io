@@ -8,7 +8,7 @@ button {
 
 img.doge {
 	position: absolute;
-	left: 450px;
+	left: 250px;
 	padding-top: 30px;
 	width: 30%;
 }
@@ -25,19 +25,6 @@ img.doge {
 	position: relative;
 }
 
-#tail {
-	top: 20px;
-	left: 450px;
-	position: absolute;
-	width: 30%;
-	z-index: -1;
-}
-
-@media (min-width: 300px) and (max-width: 420px) {
-	#tail{
-	top: 100px;
-	left: 45px;
-	position: absolute;
-	width: 70%;
-	z-index: -1;
+#forest {
+	background: url('../image/forest.png');
 }

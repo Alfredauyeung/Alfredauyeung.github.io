@@ -35,7 +35,15 @@ ul{
 	display: block;
 }
 
-@media (min-width: 300px) and (max-width: 420px) {
+@media (min-width: 300px) and (max-width: 470px) {
+	ul li {
+		color: white;
+		margin: 1.2em 0 0 .4em;
+		float: left;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 890px) {
 	ul li {
 		color: white;
 		margin: 1.2em 0 0 .4em;
@@ -122,7 +130,7 @@ ul{
 }
 
 /*mobile*/
-@media (min-width: 150px) {
+@media (min-width: 150px) and (max-width: 350px) {
 	#hello {
 		font-size: 7em;
 		padding-top: 300px;
@@ -131,7 +139,7 @@ ul{
 }
 
 /*iphone6*/
-@media (min-width: 370px) {
+@media (min-width: 370px) and (max-width: 450px) {
 	#hello {
 		font-size: 7em;
 		padding-top: 350px;
@@ -140,8 +148,9 @@ ul{
 }
 
 /*tablet*/
-@media (min-width: 500px) {
+@media (min-width: 500px){
 	#hello {
+		font-size: 110px;
 		padding-top: 10px;
 	}
 }
@@ -153,7 +162,7 @@ ul{
 	}
 }
 
-@media (min-width: 300px) and (max-width: 450px) {
+@media (min-width: 300px) and (max-width: 700px) {
 	.small-12.medium-6.large-6.columns.text {
 		float: none;
 		padding-bottom: 1px;
@@ -236,4 +245,56 @@ p {
 	color: black;
 	font-size: 20px;
 	padding-bottom: 15px;
+}
+
+.macslide{
+	height: 645px;
+	position: relative;
+}
+
+@media (min-width: 100px) and (max-width: 350px) {
+	.macslide{
+		height: 180px;
+		position: relative;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 450px) {
+	.macslide{
+		height: 225px;
+		position: relative;
+	}
+}
+
+@media (min-width: 460px) and (max-width: 600px) {
+	.macslide{
+		height: 420px;
+		position: relative;
+	}
+}
+
+@media (min-width: 605px) and (max-width: 800px) {
+	.macslide{
+		height: 480px;
+		position: relative;
+	}
+}
+
+@media (min-width: 805px) and (max-width: 1080px) {
+	.macslide{
+		height: 480px;
+		position: relative;
+	}
+}
+
+@media (min-width: 1081px) and (max-width: 1300px) {
+	.macslide{
+		height: 600px;
+		position: relative;
+	}
+}
+
+.mslide{
+	position: absolute;
+	left: 0;
 }
