@@ -24,7 +24,7 @@ body {
 	width: 70px;
 }
 
-ul{
+.navs {
 	font-family: 'Cantarell', sans-serif;
 	float: right;
 	position: relative;
@@ -36,7 +36,7 @@ ul{
 }
 
 @media (min-width: 300px) and (max-width: 470px) {
-	ul li {
+	.navs li {
 		color: white;
 		margin: 1.2em 0 0 .4em;
 		float: left;
@@ -44,7 +44,7 @@ ul{
 }
 
 @media (min-width: 500px) and (max-width: 890px) {
-	ul li {
+	.navs li {
 		color: white;
 		margin: 1.2em 0 0 .4em;
 		float: left;
@@ -52,7 +52,7 @@ ul{
 }
 
 @media (min-width: 900px) {
-	ul li {
+	.navs li {
 		color: white;
 		margin: 1.2em 0 0 2.5em;
 		float: left;
@@ -170,10 +170,16 @@ ul{
 }
 
 .thework {
+	position: relative;
 	height: auto;
 	width: 100%;
 }
 
+.compname {
+	display: none;
+	position: absolute;
+	text-align: center;
+}
 
 @media (min-width: 300px) {
 	.thework img {
@@ -297,4 +303,8 @@ p {
 .mslide{
 	position: absolute;
 	left: 0;
+}
+
+ul {
+	font-family: 'Cantarell', sans-serif;
 }

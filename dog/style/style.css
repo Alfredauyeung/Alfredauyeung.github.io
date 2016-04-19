@@ -1,4 +1,6 @@
 body {
+	background: url("../image/forest.png") no-repeat center center fixed; 
+	background-size: cover;
 	padding: 0;
 	margin: 0;
 }
@@ -8,23 +10,20 @@ button {
 
 img.doge {
 	position: absolute;
-	left: 250px;
-	padding-top: 30px;
+	left: 485px;
+	top: 480px;
 	width: 30%;
 }
 
-/*mobile*/
-@media (min-width: 300px) and (max-width: 420px) {
+/*small screen laptops*/
+@media (min-width: 1080px) and (max-width: 1400px) {
 	img.doge {
-		width: 90%;
-		left: 15px;
+		width: 28%;
+		top: 310px;
+		left: 455px;
 	}
 }
 
 #doge2 {
 	position: relative;
-}
-
-#forest {
-	background: url('../image/forest.png');
 }
