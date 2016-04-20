@@ -308,3 +308,14 @@ p {
 ul {
 	font-family: 'Cantarell', sans-serif;
 }
+
+footer {
+	margin-top: 10px;
+	height: 75px;
+	width: 100%;
+	background-color: #f7ce6b;
+}
+
+.moveright {
+	float: right;
+}
