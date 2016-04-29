@@ -257,12 +257,14 @@ p {
 }
 
 .play {
+	float: right;
 	font-family: 'Cantarell', sans-serif;
 	font-size: 20px;
 	padding-bottom: 15px;
 }
 
 .play:hover {
+	float: right;
 	font-family: 'Cantarell', sans-serif;
 	color: black;
 	font-size: 20px;
@@ -290,57 +292,65 @@ footer {
 	float: right;
 }
 
+#slides {
+	margin-bottom: 10px;
+}
+
 #slides .slidesjs-navigation {
-margin-top:3px;
+	margin-top:3px;
 }
 
 #slides .slidesjs-previous {
-margin-right: 5px;
-float: left;
+	margin-right: 5px;
+	float: left;
 }
 
 #slides .slidesjs-next {
-margin-right: 5px;
-float: left;
+	margin-right: 5px;
+	float: left;
 }
 
 .slidesjs-pagination {
-margin: 6px 0 0;
-float: right;
-list-style: none;
+	margin: 6px 0 0;
+	float: right;
+	list-style: none;
 }
 
 .slidesjs-pagination li {
-float: left;
-margin: 0 1px;
+	float: left;
+	margin: 0 1px;
 }
 
 .slidesjs-pagination li a {
-display: block;
-width: 13px;
-height: 0;
-padding-top: 13px;
-background-image: url(../image/pagination.png);
-background-position: 0 0;
-float: left;
-overflow: hidden;
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../image/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
 }
 
 .slidesjs-pagination li a.active,
 .slidesjs-pagination li a:hover.active {
-background-position: 0 -13px
+	background-position: 0 -13px
 }
 
 .slidesjs-pagination li a:hover {
-background-position: 0 -26px
+	background-position: 0 -26px
 }
 
 #slides a:link,
 #slides a:visited {
-color: black
+	color: black
 }
 
 #slides a:hover,
 #slides a:active {
-color: #9e2020
+	color: #9e2020
+}
+
+#dogmockimg {
+	margin-bottom: 10px;
 }
