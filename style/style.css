@@ -64,7 +64,7 @@ body {
 .aboutme{
 	margin-bottom: 40px;
 	min-height: 450px;
-	background: #dbebea;
+	background: #d7e8e7;
 }
 
 .aboutme p {
@@ -269,58 +269,6 @@ p {
 	padding-bottom: 15px;
 }
 
-.macslide{
-	height: 645px;
-	position: relative;
-}
-
-@media (min-width: 100px) and (max-width: 350px) {
-	.macslide{
-		height: 180px;
-		position: relative;
-	}
-}
-
-@media (min-width: 360px) and (max-width: 450px) {
-	.macslide{
-		height: 225px;
-		position: relative;
-	}
-}
-
-@media (min-width: 460px) and (max-width: 600px) {
-	.macslide{
-		height: 420px;
-		position: relative;
-	}
-}
-
-@media (min-width: 605px) and (max-width: 800px) {
-	.macslide{
-		height: 480px;
-		position: relative;
-	}
-}
-
-@media (min-width: 805px) and (max-width: 1080px) {
-	.macslide{
-		height: 480px;
-		position: relative;
-	}
-}
-
-@media (min-width: 1081px) and (max-width: 1300px) {
-	.macslide{
-		height: 600px;
-		position: relative;
-	}
-}
-
-.mslide{
-	position: absolute;
-	left: 0;
-}
-
 ul {
 	font-family: 'Cantarell', sans-serif;
 }
@@ -340,4 +288,59 @@ footer {
 
 .moveright {
 	float: right;
+}
+
+#slides .slidesjs-navigation {
+margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+margin-right: 5px;
+float: left;
+}
+
+#slides .slidesjs-next {
+margin-right: 5px;
+float: left;
+}
+
+.slidesjs-pagination {
+margin: 6px 0 0;
+float: right;
+list-style: none;
+}
+
+.slidesjs-pagination li {
+float: left;
+margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+display: block;
+width: 13px;
+height: 0;
+padding-top: 13px;
+background-image: url(../image/pagination.png);
+background-position: 0 0;
+float: left;
+overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+color: black
+}
+
+#slides a:hover,
+#slides a:active {
+color: #9e2020
 }

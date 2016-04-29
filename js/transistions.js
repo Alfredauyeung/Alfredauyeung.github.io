@@ -5,11 +5,7 @@
     		$('#image2').fadeToggle(3000);	
 		}
 
-		// setInterval(roomiSlide, 4500);
-
-		// function roomiSlide () {
-  //   		$('#r1').fadeToggle(1500);
-  //   		$('#r2').fadeToggle(1500);
-  //   		$('#r3').fadeToggle(1500);
-  //   		$('#r4').fadeToggle(1500);	
-		// }
+		$(function(){
+			$('#slides').slidesjs({
+			});
+		});
