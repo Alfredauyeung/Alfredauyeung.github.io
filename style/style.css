@@ -1,5 +1,5 @@
 /*1em=16px*/
-
+@charset "UTF-8";
 body {
 	padding: 0px 0px;
 	margin: 0px 0px;
@@ -334,21 +334,21 @@ footer {
 
 .slidesjs-pagination li a.active,
 .slidesjs-pagination li a:hover.active {
-	background-position: 0 -13px
+	background-position: 0 -13px;
 }
 
 .slidesjs-pagination li a:hover {
-	background-position: 0 -26px
+	background-position: 0 -26px;
 }
 
 #slides a:link,
 #slides a:visited {
-	color: black
+	color: black;
 }
 
 #slides a:hover,
 #slides a:active {
-	color: #9e2020
+	color: #9e2020;
 }
 
 #dogmockimg {
