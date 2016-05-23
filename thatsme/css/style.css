@@ -1,0 +1,23 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.row {
+	margin-top: 70px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+img.back {
+	position: absolute;
+}
+
+img.front {
+	position: relative;
+}
+
+img.yo {
+	position: absolute;
+}
