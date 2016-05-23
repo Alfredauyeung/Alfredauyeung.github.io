@@ -4,7 +4,7 @@ $(document).ready(function() {
 			.animate({marginTop: "0px"}, 200);
 })
 
-setInterval(supApp, 270);
+setInterval(supApp, 350);
 	function supApp () {
 		$('.sup').show();
 }
