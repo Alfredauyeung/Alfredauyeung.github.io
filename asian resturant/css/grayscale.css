@@ -94,7 +94,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #ff6600;
 }
 
 a.navbar-brand {
@@ -157,7 +157,7 @@ a.navbar-brand {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/pic.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -196,12 +196,12 @@ a.navbar-brand {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 450px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #ff6600;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #fff;
+    color: #ff6600;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -211,8 +211,8 @@ a.navbar-brand {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+    color: #ff6600;
+    /*background: rgba(255,255,255,.1);*/
 }
 
 .btn-circle i.animated {
@@ -376,9 +376,32 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-/*stuff i do*/
+/*stuff i did*/
 
 @font-face {
     font-family: 'mvboli';
     src: url('../fonts/mvboli.ttf');
+}
+
+.row.menucont {
+    height: 100%;
+}
+
+.col-sm-12.col-md-12.col-lg-12 {
+    height: 100%;
+}
+
+a.email {
+    color: #ff6600;
+}
+
+a.facebut {
+    color: #ff6600;
+    border: 1px solid #ff6600;
+}
+
+a.facebut:hover {
+    color: #ff6600;
+    border: 1px solid #ffcc00;
+    background-color: #ffcc00;
 }
